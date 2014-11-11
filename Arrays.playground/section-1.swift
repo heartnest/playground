@@ -15,6 +15,10 @@ recipes += ["Thai Shrimp Cake"]
 //add more items to array
 recipes += ["Creme Brelee", "White Chocolate Donut", "Ham and Cheese Panini"]
 
+//sort 
+recipes.sort { $0 < $1 }
+var arrsorted = recipes
+
 //find
 let arr:Array = ["a","b","c"]
 find(arr, "c")

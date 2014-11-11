@@ -39,3 +39,6 @@ let strfromint = String(valint)
 let valint2 = strfromint.toInt()
 println ("My value is \(valint2)")
 
+//substitution
+let aString: String = "This is my string"
+let newString = aString.stringByReplacingOccurrencesOfString("my", withString: "your", options: NSStringCompareOptions.LiteralSearch, range: nil)
