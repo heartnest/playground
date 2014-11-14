@@ -29,6 +29,11 @@ if string1 == string2 {
     println("Both are the same")
 }
 
+//trim
+var myString = "    Let's trim the whitespace    "
+var newString2 = myString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+
+
 //index of ISSUE REMAINED
 let stridx:NSString = "this is a big world"
 var someRange: NSRange = stridx.rangeOfString("big")

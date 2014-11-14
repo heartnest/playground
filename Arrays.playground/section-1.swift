@@ -7,6 +7,8 @@ import UIKit
 
 //declaration
 var recipes = ["Egg Benedict", "Mushroom Risotto", "Full Breakfast", "Hamburger", "Ham and Egg Sandwich"]
+
+//count, size, length
 var numberOfItems = recipes.count
 
 //add item to array
